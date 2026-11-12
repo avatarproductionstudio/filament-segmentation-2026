@@ -1,0 +1,13 @@
+# Filament Segmentation 2026 — final submission pipeline requirements
+# Reference run environment: Kaggle GPU notebook image, Python 3.13.16,
+# Nvidia Tesla T4. ultralytics version verified from the filed run's log
+# (kernel apsteam/filament-yolo26x-inference-v1 v2, submission ref 58252739).
+ultralytics==8.4.210
+torch>=2.4
+torchvision>=0.19
+opencv-python>=4.10
+numpy>=1.26
+pandas>=2.2
+pycocotools>=2.0.7
+tqdm>=4.66
+pillow>=10.0
